@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*** Import Fonts ***/
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
 /*** Variables ***/
 /* -------------------------------- 
 		General Style
@@ -9,13 +10,16 @@ html,
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
+  font-family: 'Minecraft', sans-serif;
   font-size: 100px;
   position: relative;
   color: #5b85c0;
-  background-image: -webkit-linear-gradient(90deg, #a558d4 0%, #34619e 80%);
+  background-image: -webkit-linear-gradient(90deg, #2d2e2d 0%, #0056d8 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 60s infinite linear;
@@ -103,7 +107,7 @@ p.intro-des span {
 
 .active:after {
   height: 2px !important;
-  background: #e74c3c !important;
+  background: #2f5db3 !important;
 }
 
 section.page-container {
